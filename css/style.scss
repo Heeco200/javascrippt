@@ -1,0 +1,12 @@
+.list-group-item {
+        transition: .3s;
+    button {
+        opacity: 0;
+        transition: .3s;
+    }
+}
+.list-group-item:hover {
+    button {
+        opacity: 1;
+    }
+}
